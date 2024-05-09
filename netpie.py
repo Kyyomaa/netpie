@@ -76,16 +76,7 @@ class Sniffer:
                 print(f"{self.colors[direction]}{direction.capitalize()} {self.colors['reset']} {proto_name} Packet: "
                       f"{src_ip} {src_port} | {proto_color}{src_hostname}{self.colors['reset']} -> {dst_ip} {dst_port} | "
                       f"{proto_color}{dst_hostname}{self.colors['reset']}")
-        '''
-        iptot = []
-        if src_ip not in iptot:
-            iptot.append(src_ip)
-            lenIpTot = len(iptot)
-            return lenIpTot
-        prototot = []
-        duration = 0
-        pactoto = []
-        '''
+
 
     def start_sniffing(self, filter_protocols=None, filter_direction=None, filter_ip=None, filter_port=None):
        
@@ -139,9 +130,7 @@ def main():
                         help="shows only specified protocols (tcp, udp, icmp)", default=[])
     parser.add_argument("-d", "--direction", nargs='+', choices=['out', 'in'],
                         help="shows only the specified direction", default=[])
-    #to implement#####################################
     parser.add_argument("-i", "--ip", help="filter by IP address")
-    #to implement<###################################
     parser.add_argument("-t", "--port", type=int, help="filter by port number")
     
     
