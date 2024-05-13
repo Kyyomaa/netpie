@@ -1,0 +1,8 @@
+prettytable==3.10.0 ; python_version >= "3.11" and python_version < "4.0" \
+    --hash=sha256:6536efaf0757fdaa7d22e78b3aac3b69ea1b7200538c2c6995d649365bddab92 \
+    --hash=sha256:9665594d137fb08a1117518c25551e0ede1687197cf353a4fdc78d27e1073568
+scapy==2.5.0 ; python_version >= "3.11" and python_version < "4" \
+    --hash=sha256:5b260c2b754fd8d409ba83ee7aee294ecdbb2c235f9f78fe90bc11cb6e5debc2
+wcwidth==0.2.13 ; python_version >= "3.11" and python_version < "4.0" \
+    --hash=sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859 \
+    --hash=sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5
